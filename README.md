@@ -35,7 +35,7 @@ Usage;
  
  if you want to determine which ip addresses have opened port 80 or 443, use -n option.
  
-    # ./hasere.py -s 85.111.27.88/32 -t 2 -f data/filetype 
+    # ./hasere.py -s 85.111.27.88/32 -t 2 -f data/filetype -n
     Ip Address:                      Host_Name:                    Google_Output:
     -----------                      ----------                    --------------
     85.111.27.88			         www.milliyet.com.tr		   ---
