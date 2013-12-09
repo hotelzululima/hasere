@@ -4,6 +4,7 @@ __DATE__ = '03.12.2013'
 
 
 try:
+	import sys
 	import re
 	import os
 	import tempfile
