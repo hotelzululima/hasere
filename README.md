@@ -9,6 +9,10 @@ Install the needed libraries:
     # wget https://github.com/pkrumins/xgoogle/archive/master.zip
     # cd xgoogle-master
     # python setup.py install
+    # wget https://github.com/galkan/hasere/archive/master.zip
+    # unzip master.zip
+    # cd hasere-master
+    # ./hasere.py -h
     
 Usage;
 
