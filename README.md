@@ -28,6 +28,19 @@ Usage;
     
  
  if you want to determine which ip addresses have opened port 80 or 443, use -n option.
+   
+    # ./hasere.py  -s 209.92.24.80/28 -t 3 -f data/filetype -n
+    Ip Address:                      Host_Name:                    Google_Output:
+    -----------                      ----------                    --------------
+    209.92.24.80			www.linux.org		---
+    209.92.24.80			www.linux.org		---
+    209.92.24.90			www.fobusholster.com		---
+    209.92.24.90			www.fobusholster.com		---
+    209.92.24.86			www.couturecreations.net		www.couturecreations.net/site/cart.php
+    209.92.24.86			www.couturecreations.net		www.couturecreations.net/site/cart.php,        
+    www.couturecreations.net/site/cart.php
+    209.92.24.95			www.mccaffreys.com		www.couturecreations.net/site/cart.php,  
+    www.couturecreations.net/site/cart.php, www.couturecreations.net/site/cart.php
  
     
  
