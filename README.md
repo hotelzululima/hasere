@@ -1,7 +1,7 @@
 HASERE
 ================
 
-Hasere is a tool that can discovery the virtual hosts and related filetype using google and bing search engines. At first, Optionally, it uses the nmap to determine the ip addresses which have 80 or 443 opened port. After that it uses the bing search engine to determine which domains were hosted or have been hosted on this ip address. Finally, it search the filetype which was confiured via filetype_path parameters for this domain. So you can discovery the hole for your web pentesting easily.
+Hasere is a tool that can discovery the virtual hosts and related filetype using google and bing search engines. Optionally, it uses the nmap to determine the ip addresses which have 80 or 443 opened port. After that it uses the bing search engine to determine which domains were hosted or have been hosted on this ip address. Finally, it search the filetype which was confiured via filetype_path parameters for this domain. So you can discovery the hole for your web pentesting easily.
 
 Install the needed libraries:
 
