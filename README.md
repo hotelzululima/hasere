@@ -26,20 +26,11 @@ Usage;
     php
     asp
     
-    # ./hasere.py -s 85.111.27.88/32 -t 2 -f data/filetype 
-    Ip Address:                      Host_Name:                    Google_Output:
-    -----------                      ----------                    --------------
-    85.111.27.88			         www.milliyet.com.tr		   ---
-    85.111.27.88			         www.milliyet.com.tr		   www.milliyet.com.tr/ozel/edebiyat/forum/form.asp
- 
  
  if you want to determine which ip addresses have opened port 80 or 443, use -n option.
  
-    # ./hasere.py -s 85.111.27.88/32 -t 2 -f data/filetype -n
-    Ip Address:                      Host_Name:                    Google_Output:
-    -----------                      ----------                    --------------
-    85.111.27.88			         www.milliyet.com.tr		   ---
-    85.111.27.88			         www.milliyet.com.tr		   www.milliyet.com.tr/ozel/edebiyat/forum/form.asp
- 
+    
  
 NOTE: It was tested on Kali Linux.
+
+
