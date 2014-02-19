@@ -11,7 +11,7 @@ try:
 except ImportError,e:
   	import sys
   	sys.stdout.write("%s\n" %e)
-  	sys.exit(1)
+  	sys.exit(14)
 
 
 class InvalidIPAddress(ValueError):
