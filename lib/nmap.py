@@ -13,7 +13,7 @@ try:
 except ImportError,e:
         import sys
         sys.stdout.write("%s\n" %e)
-        sys.exit(7)
+        sys.exit(10)
 
 
 class Nmap:
@@ -24,7 +24,7 @@ class Nmap:
 
 		if not os.path.exists(self.nmap):
 			print bcolors.OKBLUE + "Error: " + bcolors.ENDC + bcolors.FAIL + "%s: File Doesn\'t Exist On The System !!!"% (self.nmap) + bcolors.ENDC
-                        sys.exit(8)
+                        sys.exit(11)
 
 
         def port_scan(self, ip_list):
