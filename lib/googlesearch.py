@@ -14,7 +14,7 @@ try:
 except ImportError,e:
         import sys
         sys.stdout.write("%s\n" %e)
-        sys.exit(8)
+        sys.exit(12)
 
 
 socket.setdefaulttimeout(30)
