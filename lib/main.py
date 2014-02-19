@@ -105,7 +105,7 @@ class Main:
 			except ImportError,e:
         			import sys
         			sys.stdout.write("%s\n" %e)
-        			sys.exit(5)
+        			sys.exit(6)
 
                 	nmap = Nmap()
 			if self.subnet_cidr_file == 1:
@@ -116,14 +116,14 @@ class Main:
 						self.print_results(nmap_result)
                 			else:
 						print >> sys.stderr,  bcolors.OKBLUE + "Warning : " + bcolors.ENDC + bcolors.FAIL + "Nmap Scan is not completed succesfully !!!" + bcolors.ENDC
-                        			sys.exit(6)
+                        			sys.exit(7)
 			else:
                 		nmap_result = nmap.port_scan(self.args.subnet)
 	               		if nmap_result:
 					self.print_results(nmap_result)
                 		else:
 					print >> sys.stderr,  bcolors.OKBLUE + "Warning : " + bcolors.ENDC + bcolors.FAIL + "Nmap Scan is not completed succesfully !!!" + bcolors.ENDC
-                        		sys.exit(7)
+                        		sys.exit(8)
 		else:
 			try:
 				from lib.iprange import IpRange
@@ -131,7 +131,7 @@ class Main:
                         except ImportError,e:
                                 import sys
                                 sys.stdout.write("%s\n" %e)
-                                sys.exit(8)
+                                sys.exit(9)
 
 			iprange = IpRange()
 			ip_list = []
